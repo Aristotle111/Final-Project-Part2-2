@@ -8,7 +8,7 @@ package finalprojectpart1;
  *
  * @author 6312971
  */
-public class FinalProjectPart1 {
+public class MoneyDemo {
 
     /**
      * @param args the command line arguments
