@@ -101,9 +101,9 @@ public class Money {
         return value; 
     } 
     // ADD LINES FOR TASK #2 HERE 
-    // Document and write an equals method 
-    public boolean IsMoneyEqual(Money amount) {          
-        return (this.dollars == amount.dollars && this.cents == amount.cents); 
+    // Document and write an equals method
+    public boolean equals(Money anotherMoney) {
+        return (this.dollars == anotherMoney.dollars && this.cents == anotherMoney.cents);
     }
     // Document and write a toString method 
     @Override
